@@ -6,10 +6,9 @@ C4Timer.js
 > Don't mind the name, the author is just a fan of **CS (Counter-Strike)**
 
 <br/>
-####Basic Usage
-===
-```javascript
 
+####Basic Usage
+```javascript
 //sample usage
 var options = {
 
@@ -31,8 +30,18 @@ var options = {
 var c4Timer = new C4Timer(options);
 //where's your diffuse kit? :D
 c4Timer.start();
+```
 
-````
+`endDate` - if this is `"falsy"`, like `null` or `undefined`, `C4Timer` will fallback to tomorrow midnight's datetime as its `endDate`.
+<br/>
+<br/>
+`onTick` and `onEnd` - if these properties are ignored, it will fallback to an empty function.
 
+<br/>
+<br/>
 
-
+####Roadmap
+===
+* Explore other timing mechanics such as delta-time to make this as accurate as possible
+* Add a time-format customization functionality
+* Some stuffs. lol
