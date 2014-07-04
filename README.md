@@ -32,5 +32,16 @@ var c4Timer = new C4Timer(options);
 c4Timer.start();
 ```
 
+`endDate` - if this is `"falsy"`, like `null` or `undefined`, `C4Timer` will fallback to tomorrow midnight's datetime as its `endDate`.
+<br/>
+<br/>
+`onTick` and `onEnd` - if these properties are ignored, it will fallback to an empty function.
 
+<br/>
+<br/>
 
+####Roadmap
+===
+* Explore other timing mechanics such as delta-time to make this as accurate as possible
+* Add a time-format customization functionality
+* Some stuffs. lol
