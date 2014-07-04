@@ -36,7 +36,9 @@ c4Timer.start();
 <br/>
 <br/>
 `onTick` and `onEnd` - if these properties are ignored, it will fallback to an empty function.
-
+<br/>
+<br/>
+if the constructor `arguments` is ommitted, it will still fallback to the default values stated above.
 <br/>
 <br/>
 
