@@ -8,8 +8,8 @@ C4Timer.js
 <br/>
 ####Basic Usage
 ===
-```javascript
 
+```javascript
 //sample usage
 var options = {
 
@@ -31,8 +31,7 @@ var options = {
 var c4Timer = new C4Timer(options);
 //where's your diffuse kit? :D
 c4Timer.start();
-
-````
+```
 
 
 
