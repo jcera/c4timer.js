@@ -6,9 +6,8 @@ C4Timer.js
 > Don't mind the name, the author is just a fan of **CS (Counter-Strike)**
 
 <br/>
-####Basic Usage
-===
 
+####Basic Usage
 ```javascript
 //sample usage
 var options = {
