@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) {{{2014}}} {{{Jose Alexander Cera}}}
+Copyright (c) 2014 Alex Cera
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
