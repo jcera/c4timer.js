@@ -18,17 +18,15 @@
             return d;
     };
 
-
     function checkEnded(isEnded) {
         _ended = isEnded;
     };
 
     function remainingTime() {
-        var diff = _endDate.getTime() - new Date().getTime();
-
-        var hrs = Math.floor(diff / 3600000);
-        var mins = Math.floor(diff % 3600000 / 60000);
-        var secs = Math.floor(diff % 60000 / 1000);
+        var diff = _endDate.getTime() - new Date().getTime(),
+            hrs = Math.floor(diff / 3600000),
+            mins = Math.floor(diff % 3600000 / 60000),
+            secs = Math.floor(diff % 60000 / 1000);
 
         checkEnded(hrs <= 0 && mins <= 0 && secs <= 0);
 
@@ -56,4 +54,5 @@
     };
 
     return C4Timer;
+    
 })(window);
