@@ -9,18 +9,18 @@
         var tomorrowMidnight = new Date(new Date().getTime() + 86400000);
         tomorrowMidnight.setHours(0, 0, 0, 0);
         return tomorrowMidnight;
-    };
+    }
 
     function validDate(d) {
         if (!d || Object.prototype.toString.call(d) !== "[object Date]")
             return tomorrow();
         else
             return d;
-    };
+    }
 
     function checkEnded(isEnded) {
         _ended = isEnded;
-    };
+    }
 
     function remainingTime() {
         var diff = _endDate.getTime() - new Date().getTime(),
@@ -31,7 +31,7 @@
         checkEnded(hrs <= 0 && mins <= 0 && secs <= 0);
 
         return hrs + ":" + mins + ":" + secs;
-    };
+    }
 
     var C4Timer = w.C4Timer = function(props) {
         if (props) {

@@ -1,0 +1,25 @@
+{
+  "name": "c4timer.js",
+  "version": "1.0.0",
+  "description": "C4Timer.js ======================== <br/> ####What is this? > A simple implementation of timer/countdown. <br/> > Don't mind the name, the author is just a fan of **CS (Counter-Strike)**",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexcera/c4timer.js.git"
+  },
+  "author": "Alex Cera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexcera/c4timer.js/issues"
+  },
+  "homepage": "https://github.com/alexcera/c4timer.js",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
